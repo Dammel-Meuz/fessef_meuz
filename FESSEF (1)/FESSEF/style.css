@@ -1,0 +1,22 @@
+body {
+    background-color: lightgrey;
+    padding: 0;
+    margin: 0;
+}
+
+.col-mb-3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+} 
+
+h3 {
+    text-align: justify;
+}
+
+.shadow{
+    display: flex;
+    
+}
+

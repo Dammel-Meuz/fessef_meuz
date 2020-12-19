@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+                integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+            <link rel="icon" href="{% static 'IMG/favicon-32x32.png' %}">
+            <link href="../style.css" rel="stylesheet" type="text/css">
+            
+            
+            <!-- cdn pour les scripts qui permet a bootstrap de fonctionner bien -->
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
+            <!--Script FontAwesome free-->
+            <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+            
+            <title>Page Annonce</title>
+            <style>
+                body {
+                    background-color: lightgrey;
+                }
+            </style>
+            </head>
+            
+            <body>
+                <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #3563a9;">
+                    <a class="navbar- " href="../association/pages.html">
+                        <img src="../img/logo fessef.jpg" width="50" height="50" class="d-inline-block align-top" alt=""
+                            style="border-radius: 50%;">
+                        </b>
+                    </a>
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto" style="margin-right: 75px; justify-content: end;">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../index.html">
+                                    <i class="fas fa-plus"></i>
+                                    Actualite
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../chat/chatHome.html">
+                                    <i class="fas fa-envelope"></i>
+                                    Messages <span class="badge badge-light">4</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../etpse/home.html">
+                                    <i class="far fa-eye"></i>
+                                    Annonce
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../xamxam/xamxam.html">
+                                    <i class="fas fa-school"></i>
+                                    Xamxam
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown" style="margin-right: 80px;">
+                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="../association/pages.html">Page</a>
+                                    <a class="dropdown-item" href="{% url 'change_password' %}">Editer mots de passe</a>
+            
+                                    <div class="dropdown-divider"></div>
+            
+                                    <form action=" {% url 'logout' %}" method="POST"
+                                        class="dropdown-item text-black-50 text-center">
+            
+                                        <input type="submit" value="Deconnexion" class="btn btn-sm btn-danger">
+                                    </form>
+            
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+    <!--Section Profil du Stagiaire-->
+
+    <br>
+    
+    <div class="container-fluid  mb-5 ">
+        <div class="row d-flex ">
+    
+            <div class="col-md-1"></div>
+    
+            <div class="col-md-3 mb-2">
+    
+    
+                <div class="card raduis-card mb-2">
+                    <div class="card-body bg-danger" style="height : 100px;background-color: #FF0000;"></div>
+                    <div class="card-body m-auto">
+                        <img src="" class="rounded-circle shadow-sm" alt="image"
+                            width="150" height="150" style="margin-top: -90px; ">
+                    </div>
+                    <div class="card-body" style="height : 100px;"></div> -
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-center">
+                      <h5 class="card-title"></h5>
+                    </li>
+                  </ul>
+                  <div class="card-body text-center">
+                    <a class=" btn btn-warning" href="{% url 'profile' %}">Voir Profile</a>
+                  </div>
+              </div>
+    
+              <div class="card dCard mb-2" >
+                
+                 <div class="card-body" style="height : 100px;"></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center">
+                            <h5 class="card-title">Document <br> <small class="text-muted">Important</small></h5>
+                        </li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a class=" btn btn-warning mr-2" data-toggle="modal" data-target="#lettreM">
+                            Lettre Motivation
+                        </a>
+                        <a class=" btn btn-warning margin-d" data-toggle="modal" data-target="#cvPdf">
+                            Le Cv
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- modal CV-->
+                <div class="modal fade" id="cvPdf" tabindex="-1" aria-labelledby="cvLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cvLabel">Curriculum vitæ de </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+    
+                                <iframe src="" width="100%" height="600px">
+                                </iframe>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin modal CV-->
+    
+                <!-- modal LM-->
+                <div class="modal fade" id="lettreM" tabindex="-1" aria-labelledby="lettreMLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="lettreMLabel">Lettre de motivation de @ </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+    
+                                <iframe src="{{  user.profile.lettre_motivation.url }}" width="100%" height="600px">
+                                </iframe>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin modal LM-->
+    
+    
+                <!-- Debut Du Formulaire De Recherche -->
+    
+                <form action="{% url 'search_post' %}" class="mt-4">
+                    <input type="search" name="search" class="form-control my-1" id="" placeholder="Recherche">
+                    <button type="submit" class="btn btn-danger">Recherche</button>
+                </form>
+    
+    
+                <!-- Fin Du Formulaire De Recherche -->
+    
+    
+            </div>
+    
+    
+            <div class="col-md-4">
+    
+                <!-- modal -->
+    
+                <button type="button" class="btn btn-danger  mb-2" data-toggle="modal" data-target="#exampleModal"
+                    data-whatever="@mdo">
+                    Fesseul
+                </button>
+    
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Partagez</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" method="POST" enctype="multipart/form-data">
+    
+                                    <div class="form-group">
+                                        <div class="custom-file">
+                                            <input type="file" name="image" class="custom-file-input" id="image">
+                                            <label class="custom-file-label" for="image">Image : </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="textarea">Contenu : </label>
+                                        <textarea class="form-control form-control" name="text" id="textarea" cols="30"
+                                            rows="3" placeholder="Partagez votre sensation"></textarea>
+                                    </div>
+    
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Feseul</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- modal -->
+    
+    
+    
+                <div class="card mb-3" id="">
+                    <div class="card-header" style="height: 55px; padding : 5px">
+    
+                        <img class="rounded-circle border border-warning d-inline"
+                            src="" alt="user" width="40px" height="40px">
+    
+                        <img class="rounded-circle border border-warning d-inline" src=""
+                            alt="user" width="40px" height="40px">
+    
+    
+                        <img class="rounded-circle border border-warning d-inline"
+                            src="" alt="user" width="40px" height="40px">
+    
+    
+                        <div class="text-muted font-weight-bold dropdown d-inline ml-2"> </div>
+    
+                        <a href="" class="float-right mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i
+                                class="fas fa-ellipsis-h fa-2x mt-2 text-secondary "></i></a>
+                        <!-- debut du list dropdown -->
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    
+                            <a class="dropdown-item text-danger  delete" href="" id="">
+                                Delete
+                            </a>
+    
+                            <a class="dropdown-item" href="#">
+                                Signalez
+                            </a>
+    
+                        </div>
+    
+                        <!-- fin du list -->
+                        <p style="margin-top: -32px;"></p> <small class="text-muted ml-5"></small> </p>
+                    </div>
+    
+    
+                    <img src="{{i.thumbnail.url}}" class="card-img-top card-infoImg" alt="fesseul image">
+    
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <p class="text-left ml-2">
+                            <a href="" class="float-right mr-2 text-primary" href="">Voir plus...</a>
+                        </p>
+                    </div>
+                </div ></div>
+            </div>
+    
+    
+            <div class="col-md-3 ">
+                <div class="card mr-4 mb-3 mt-4 d-sm-none">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> <b> Annonces </b></h5>
+                    </div>
+                </div>
+    
+                <div class="card d-sm-none mr-4 mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <img src="" class="card-img pimg" alt="..."
+                                style="width: 100%; height : 100%;">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <a class="text-dark" href="{% url 'annonce-datail'  post.pk %}">
+                                    <h5 class="card-title"></h5>
+                                </a>
+                                <p class="card-text">
+                                    <a class="text-dark" href="{% url 'annonce-datail'  post.pk %}">...
+                                    </a>
+                                </p>
+                                <p class="card-text" style="font-size: 13px;">
+                                    <small class="text-muted">
+                                        Depuis
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+             <div class="col-md-1 d-sm-none ">
+        </div>
+    
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="{% static 'JS/postfeeds.js' %}  "></script>
+
+
+</body>
+
+</html>

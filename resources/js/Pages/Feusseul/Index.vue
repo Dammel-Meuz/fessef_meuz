@@ -22,8 +22,8 @@
 
                             <td>{{ feusseul.contenu | truncate(27) }}</td>
                             <td>
-                                <img v-if="feusseul.extension == 'jpeg'" :src="'uploads/'+feusseul.file" height="200px" width="255px" alt=""/>
-                                <video controls v-if="feusseul.extension == 'mp4'" height="200px" width="255px">
+                                <img v-if="feusseul.extension == 'jpeg' ||feusseul.extension == 'jpg' ||feusseul.extension == 'npg'" :src="'uploads/'+feusseul.file" height="200px" width="255px" alt=""/>
+                                <video controls v-if="feusseul.extension == 'mp4'||feusseul.extension == 'ogg'" height="200px" width="255px">
                                     <source :src="'/uploads/videos/' +feusseul.file" type="video/mp4">
                                 </video>
                             </td>

@@ -8441,7 +8441,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\nh1[data-v-3d739d8d] {\n  margin-left: 20px;\n}\n.card[data-v-3d739d8d] {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  max-width: 300px;\n  margin-left: 20px;\n  text-align: center;\n  font-family: arial, cursive;\n}\n.title[data-v-3d739d8d] {\n  color: grey;\n  font-size: 18px;\n}\nbutton[data-v-3d739d8d] {\n  border: none;\n  outline: 0;\n  display: inline-block;\n  padding: 8px;\n  color: white;\n  background-color: #000;\n  text-align: center;\n  cursor: pointer;\n  width: 100%;\n  font-size: 18px;\n}\na[data-v-3d739d8d] {\n  text-decoration: none;\n  font-size: 22px;\n  color: black;\n}\nbutton[data-v-3d739d8d]:hover,\na[data-v-3d739d8d]:hover {\n  opacity: 0.7;\n}\n", ""]);
+exports.push([module.i, "\nh1[data-v-3d739d8d] {\r\n  margin-left: 20px;\n}\n.card[data-v-3d739d8d] {\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  max-width: 300px;\r\n  margin-left: 20px;\r\n  text-align: center;\r\n  font-family: arial, cursive;\n}\n.title[data-v-3d739d8d] {\r\n  color: grey;\r\n  font-size: 18px;\n}\nbutton[data-v-3d739d8d] {\r\n  border: none;\r\n  outline: 0;\r\n  display: inline-block;\r\n  padding: 8px;\r\n  color: white;\r\n  background-color: #000;\r\n  text-align: center;\r\n  cursor: pointer;\r\n  width: 100%;\r\n  font-size: 18px;\n}\na[data-v-3d739d8d] {\r\n  text-decoration: none;\r\n  font-size: 22px;\r\n  color: black;\n}\nbutton[data-v-3d739d8d]:hover,\r\na[data-v-3d739d8d]:hover {\r\n  opacity: 0.7;\n}\r\n", ""]);
 
 // exports
 
@@ -53670,83 +53670,83 @@ module.exports = function(module) {
 var map = {
 	"./Admin/Dashboard": [
 		"./resources/js/Pages/Admin/Dashboard.vue",
-		8
+		9
 	],
 	"./Admin/Dashboard.vue": [
 		"./resources/js/Pages/Admin/Dashboard.vue",
-		8
+		9
 	],
 	"./Admin/Index": [
 		"./resources/js/Pages/Admin/Index.vue",
-		19
+		21
 	],
 	"./Admin/Index.vue": [
 		"./resources/js/Pages/Admin/Index.vue",
-		19
+		21
 	],
 	"./Annonces/Create": [
 		"./resources/js/Pages/Annonces/Create.vue",
-		9
+		10
 	],
 	"./Annonces/Create.vue": [
 		"./resources/js/Pages/Annonces/Create.vue",
-		9
+		10
 	],
 	"./Annonces/Edit": [
 		"./resources/js/Pages/Annonces/Edit.vue",
-		10
+		11
 	],
 	"./Annonces/Edit.vue": [
 		"./resources/js/Pages/Annonces/Edit.vue",
-		10
+		11
 	],
 	"./Annonces/Index": [
 		"./resources/js/Pages/Annonces/Index.vue",
-		20
+		22
 	],
 	"./Annonces/Index.vue": [
 		"./resources/js/Pages/Annonces/Index.vue",
-		20
+		22
 	],
 	"./Annonces/Interet": [
 		"./resources/js/Pages/Annonces/Interet.vue",
-		21
+		23
 	],
 	"./Annonces/Interet.vue": [
 		"./resources/js/Pages/Annonces/Interet.vue",
-		21
+		23
 	],
 	"./Annonces/Show": [
 		"./resources/js/Pages/Annonces/Show.vue",
-		22
+		24
 	],
 	"./Annonces/Show.vue": [
 		"./resources/js/Pages/Annonces/Show.vue",
-		22
+		24
 	],
 	"./Annonces/ShowAll": [
 		"./resources/js/Pages/Annonces/ShowAll.vue",
-		23
+		25
 	],
 	"./Annonces/ShowAll.vue": [
 		"./resources/js/Pages/Annonces/ShowAll.vue",
-		23
+		25
 	],
 	"./Annonces/ShowAnnonce": [
 		"./resources/js/Pages/Annonces/ShowAnnonce.vue",
-		24
+		26
 	],
 	"./Annonces/ShowAnnonce.vue": [
 		"./resources/js/Pages/Annonces/ShowAnnonce.vue",
-		24
+		26
 	],
 	"./Annonces/User/Profile": [
 		"./resources/js/Pages/Annonces/User/Profile.vue",
-		18
+		19
 	],
 	"./Annonces/User/Profile.vue": [
 		"./resources/js/Pages/Annonces/User/Profile.vue",
-		18
+		19
 	],
 	"./Association/Dashboard": [
 		"./resources/js/Pages/Association/Dashboard.vue"
@@ -53772,51 +53772,51 @@ var map = {
 	],
 	"./Association/Index": [
 		"./resources/js/Pages/Association/Index.vue",
-		25
+		27
 	],
 	"./Association/Index.vue": [
 		"./resources/js/Pages/Association/Index.vue",
-		25
+		27
 	],
 	"./Entreprise/Annonces/Create": [
 		"./resources/js/Pages/Entreprise/Annonces/Create.vue",
-		11
+		12
 	],
 	"./Entreprise/Annonces/Create.vue": [
 		"./resources/js/Pages/Entreprise/Annonces/Create.vue",
-		11
+		12
 	],
 	"./Entreprise/Annonces/Edit": [
 		"./resources/js/Pages/Entreprise/Annonces/Edit.vue",
-		12
+		13
 	],
 	"./Entreprise/Annonces/Edit.vue": [
 		"./resources/js/Pages/Entreprise/Annonces/Edit.vue",
-		12
+		13
 	],
 	"./Entreprise/Annonces/Index": [
 		"./resources/js/Pages/Entreprise/Annonces/Index.vue",
-		26
+		28
 	],
 	"./Entreprise/Annonces/Index.vue": [
 		"./resources/js/Pages/Entreprise/Annonces/Index.vue",
-		26
+		28
 	],
 	"./Entreprise/Annonces/Show": [
 		"./resources/js/Pages/Entreprise/Annonces/Show.vue",
-		27
+		29
 	],
 	"./Entreprise/Annonces/Show.vue": [
 		"./resources/js/Pages/Entreprise/Annonces/Show.vue",
-		27
+		29
 	],
 	"./Entreprise/Annonces/ShowAll": [
 		"./resources/js/Pages/Entreprise/Annonces/ShowAll.vue",
-		28
+		30
 	],
 	"./Entreprise/Annonces/ShowAll.vue": [
 		"./resources/js/Pages/Entreprise/Annonces/ShowAll.vue",
-		28
+		30
 	],
 	"./Entreprise/Dashboard": [
 		"./resources/js/Pages/Entreprise/Dashboard.vue",
@@ -53844,147 +53844,155 @@ var map = {
 	],
 	"./Etat/Dashboard": [
 		"./resources/js/Pages/Etat/Dashboard.vue",
-		13
+		14
 	],
 	"./Etat/Dashboard.vue": [
 		"./resources/js/Pages/Etat/Dashboard.vue",
-		13
+		14
 	],
 	"./Etat/Index": [
 		"./resources/js/Pages/Etat/Index.vue",
-		29
+		31
 	],
 	"./Etat/Index.vue": [
 		"./resources/js/Pages/Etat/Index.vue",
-		29
+		31
 	],
 	"./Etudiant/Dashboard": [
 		"./resources/js/Pages/Etudiant/Dashboard.vue",
-		5
+		20
 	],
 	"./Etudiant/Dashboard.vue": [
 		"./resources/js/Pages/Etudiant/Dashboard.vue",
-		5
+		20
 	],
 	"./Etudiant/Edit": [
 		"./resources/js/Pages/Etudiant/Edit.vue",
-		6
+		5
 	],
 	"./Etudiant/Edit.vue": [
 		"./resources/js/Pages/Etudiant/Edit.vue",
-		6
+		5
 	],
 	"./Etudiant/EditAvatar": [
 		"./resources/js/Pages/Etudiant/EditAvatar.vue",
-		7
+		6
 	],
 	"./Etudiant/EditAvatar.vue": [
 		"./resources/js/Pages/Etudiant/EditAvatar.vue",
-		7
+		6
 	],
 	"./Etudiant/File/EditFile": [
 		"./resources/js/Pages/Etudiant/File/EditFile.vue",
-		38
+		7
 	],
 	"./Etudiant/File/EditFile.vue": [
 		"./resources/js/Pages/Etudiant/File/EditFile.vue",
-		38
+		7
 	],
 	"./Etudiant/File/UploadFile": [
 		"./resources/js/Pages/Etudiant/File/UploadFile.vue",
-		37
+		8
 	],
 	"./Etudiant/File/UploadFile.vue": [
 		"./resources/js/Pages/Etudiant/File/UploadFile.vue",
-		37
+		8
 	],
 	"./Etudiant/Index": [
 		"./resources/js/Pages/Etudiant/Index.vue",
-		30
+		32
 	],
 	"./Etudiant/Index.vue": [
 		"./resources/js/Pages/Etudiant/Index.vue",
-		30
+		32
 	],
 	"./Feusseul/Create": [
 		"./resources/js/Pages/Feusseul/Create.vue",
-		14
+		15
 	],
 	"./Feusseul/Create.vue": [
 		"./resources/js/Pages/Feusseul/Create.vue",
-		14
+		15
 	],
 	"./Feusseul/Edit": [
 		"./resources/js/Pages/Feusseul/Edit.vue",
-		15
+		16
 	],
 	"./Feusseul/Edit.vue": [
 		"./resources/js/Pages/Feusseul/Edit.vue",
-		15
+		16
 	],
 	"./Feusseul/Index": [
 		"./resources/js/Pages/Feusseul/Index.vue",
-		31
+		33
 	],
 	"./Feusseul/Index.vue": [
 		"./resources/js/Pages/Feusseul/Index.vue",
-		31
+		33
 	],
 	"./Feusseul/Show": [
 		"./resources/js/Pages/Feusseul/Show.vue",
-		32
+		34
 	],
 	"./Feusseul/Show.vue": [
 		"./resources/js/Pages/Feusseul/Show.vue",
-		32
+		34
 	],
 	"./Feusseul/ShowAll": [
 		"./resources/js/Pages/Feusseul/ShowAll.vue",
-		33
+		35
 	],
 	"./Feusseul/ShowAll.vue": [
 		"./resources/js/Pages/Feusseul/ShowAll.vue",
-		33
+		35
+	],
+	"./Feusseul/ancien": [
+		"./resources/js/Pages/Feusseul/ancien.vue",
+		39
+	],
+	"./Feusseul/ancien.vue": [
+		"./resources/js/Pages/Feusseul/ancien.vue",
+		39
 	],
 	"./Xamxam/Display": [
 		"./resources/js/Pages/Xamxam/Display.vue",
-		34
+		36
 	],
 	"./Xamxam/Display.vue": [
 		"./resources/js/Pages/Xamxam/Display.vue",
-		34
+		36
 	],
 	"./Xamxam/DisplayAll": [
 		"./resources/js/Pages/Xamxam/DisplayAll.vue",
-		35
+		37
 	],
 	"./Xamxam/DisplayAll.vue": [
 		"./resources/js/Pages/Xamxam/DisplayAll.vue",
-		35
+		37
 	],
 	"./Xamxam/Edit": [
 		"./resources/js/Pages/Xamxam/Edit.vue",
-		16
+		17
 	],
 	"./Xamxam/Edit.vue": [
 		"./resources/js/Pages/Xamxam/Edit.vue",
-		16
+		17
 	],
 	"./Xamxam/Index": [
 		"./resources/js/Pages/Xamxam/Index.vue",
-		17
+		18
 	],
 	"./Xamxam/Index.vue": [
 		"./resources/js/Pages/Xamxam/Index.vue",
-		17
+		18
 	],
 	"./Xamxam/Show": [
 		"./resources/js/Pages/Xamxam/Show.vue",
-		36
+		38
 	],
 	"./Xamxam/Show.vue": [
 		"./resources/js/Pages/Xamxam/Show.vue",
-		36
+		38
 	]
 };
 function webpackAsyncContext(req) {
@@ -54229,8 +54237,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /opt/lampp/htdocs/fessef/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /opt/lampp/htdocs/fessef/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\laragon\www\fessef\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\fessef\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
